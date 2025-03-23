@@ -78,7 +78,7 @@ Navigate to your home directory and clone the latest DevStack repository:
 git clone https://opendev.org/openstack/devstack.git
 cd devstack
 ```
-![image](https://github.com/user-attachments/assets/cbb053f4-e9d8-4140-a47c-64107f440dde)
+
 
 ---
 
@@ -115,7 +115,7 @@ GIT_BASE=https://opendev.org
 
 Save and exit (CTRL+X, then Y, then ENTER).
 
-![image](https://github.com/user-attachments/assets/ad725943-6387-4e97-9fd2-b4dcad91803b)
+
 
 ---
 
@@ -126,6 +126,9 @@ Run the DevStack installation script, which may take **30-45 minutes**:
 ```bash
 ./stack.sh
 ```
+![Screenshot (46)](https://github.com/user-attachments/assets/fbedd939-01f9-4504-b01a-02708bb9851a)
+
+
 
 If the installation is successful, you will see a confirmation message: `DevStack installed successfully!`.
 
@@ -142,8 +145,13 @@ http://your-ec2-public-ip/dashboard
 ### **Login Credentials:**
 - **Username:** `admin`
 - **Password:** `SuperSecret` (as defined in `local.conf`)
-
 ---
+
+![Screenshot (44)](https://github.com/user-attachments/assets/0dc4ef2e-d712-463f-80a0-81f71d9b7313)
+
+![Screenshot (45)](https://github.com/user-attachments/assets/a27b5f53-c12b-40d2-96a4-57b43bd48392)
+
+
 
 ## **7. Verify OpenStack Services**
 
@@ -157,6 +165,8 @@ openstack service list
 If successful, you should see a list of active OpenStack services.
 
 ---
+![Screenshot (46)a](https://github.com/user-attachments/assets/1e53c7a9-b949-4cf7-8bcf-817f28ecfd4a)
+
 
 ## **8. Conclusion**
 
